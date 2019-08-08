@@ -33,7 +33,7 @@
 			sprintf(
 				wp_kses(
 					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'twentynineteen' ),
+					__( 'Continue reading<pan class="screen-reader-text"> "%s"</span>', 'twentynineteen' ),
 					array(
 						'span' => array(
 							'class' => array(),

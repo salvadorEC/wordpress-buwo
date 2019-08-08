@@ -1,0 +1,161 @@
+/*
+Theme Name: tema-buwo
+Theme URI: https://buwo.io
+Author: salvadorec
+Author URI: https://wordpress.org/
+Description: Twenty Seventeen brings your site to life with immersive featured images and subtle animations. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: tema-buwo
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*
+style index
+*/
+
+.body-index {
+  background-color: #FFFFFF;
+}
+
+#body-izq {
+  background-color: #FC7463;
+}
+
+#body-der {
+  background-color: #3C3C3C;
+}
+
+/*
+style archive
+*/
+
+#nav2-bar-archive{
+    background-color: #393939;
+    padding: 0rem;
+    padding-top: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    letter-spacing: 2px;
+    line-height: 1px;
+    text-indent: 40px;
+}
+#designer{
+  text-indent: 100px;
+  letter-spacing: 4px;
+  font-size: 13px;
+}
+
+.nav-link
+ {
+   letter-spacing: 0px;
+   color: #ffffff;
+   font-family: 'Homenaje', sans-serif;
+   font-size: 12px;
+
+ }
+
+a:hover {color: #FC7463;}
+
+ #font{
+   font-family: 'Rubik', sans-serif;
+ }
+
+
+figure.destinations{
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 2%;
+  min-width: 130px;
+  max-width: 240px;
+  width: 100%;
+  background-color: #ffffff;
+  text-align: left;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+figure {
+  margin: 0 0 1rem;
+}
+
+div.figure-footer {
+  line-height: auto;
+  background-color: #FC7463;
+  width: auto;
+  height: 8px;
+  filter: drop-shadow(1px 1px 1px #444);
+}
+
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+#title-card{
+    font-family: 'Hammersmith One', sans-serif;
+    color: #393939;
+    line-height: auto;
+    text-align: center;
+    position: relative;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    filter: drop-shadow(2px 2px 2px #B3B3B2);
+}
+
+p{
+  height: 7em;
+  font-size: 10px;
+  color: #B3B3B2;
+  padding: 5%;
+  width: auto;
+}
+
+h3.blog {
+  color:#ffffff !important;
+  line-height:2em!important;
+  text-indent: -0.1em!important;
+  font-size: 44px;
+}
+
+
+img.size-medium{
+  width: auto !important;
+  height: 190px !important;
+  position: relative !important;
+}
+
+h4{
+  color: #FC7463;
+  font-family: 'Rubik', sans-serif;
+  font-size: 13px;
+  position: relative;
+  text-indent: 1em;
+  line-height: 1em;
+}
+
+button.btn-leer {
+  border-color: #FC7463;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  background-color:#ffffff;
+  font-size: 10px;
+  font-family: 'Rubik', sans-serif;
+  color: #B3B3B2;
+  position: relative;
+  top: -9px;
+  margin-top: auto;
+  margin-left:156px;
+}
+
+div.container {
+    max-width: 1173px;
+}
