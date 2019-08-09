@@ -16,6 +16,7 @@ function agregar_css_js(){
   //wp_enqueue_script('bootstrapJs',get_template_directory_uri(). '/js/bootstrap.min.js', array ( 'jquery' ), '1.14', true);
   wp_enqueue_script( 'popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js' , array('jquery'), '1.14',false );
   wp_enqueue_script( 'bootstrapJs', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' , array('jquery'), '1.14',false );
+  wp_enqueue_script( 'fontawesome', 'https://kit.fontawesome.com/8323dd105e.js' , array('jquery'), '1.14',false );
 
 
 }
@@ -28,3 +29,20 @@ function dcms_insertar_google_fonts(){
  }
 
 add_action('wp_enqueue_scripts', 'agregar_css_js');
+
+//agregar zona widgets
+function dcms_agregar_nueva_zona_widgets() {
+
+	register_sidebar( array(
+		'name'          => 'Nueva Zona Widget',
+		'id'            => 'id-nueva-zona',
+		'description'   => 'Descripción de la nueva Zona de Widgets',
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
+}
+
+add_action( 'widgets_init', 'dcms_agregar_nueva_zona_widgets' );

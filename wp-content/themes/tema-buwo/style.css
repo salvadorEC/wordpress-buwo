@@ -30,7 +30,7 @@ style index
 }
 
 /*
-style archive
+style archive, index, footer
 */
 
 #nav2-bar-archive{
@@ -79,6 +79,8 @@ figure.destinations{
   background-color: #ffffff;
   text-align: left;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  margin-top: 80px;
+
 }
 
 figure {
@@ -158,4 +160,110 @@ button.btn-leer {
 
 div.container {
     max-width: 1173px;
+    margin-top: 90px;
+    margin-bottom: 1630px;
+
+}
+a.btn-leer-link{
+  color: #FC7463;
+  text-decoration:none;
+}
+
+
+div.nav-extra{
+  background-color: #FC7463;
+  width: 210px;
+  height: 71px;
+  position: absolute;
+}
+
+
+#footer-page{
+background-color: #FC7463;
+background-position: top left;
+background-repeat: no-repeat;
+border-top: 0;
+background-size: auto;
+color: #6a737c;
+padding-top: 0;
+padding-bottom: 0;
+box-sizing: border-box;
+width: 100%;
+margin: 0 auto;
+padding: 32px 12px 12px 12px;
+display: flex;
+flex-flow: row wrap;
+height: auto;
+
+}
+
+img.logo-footer{
+  height: 90px;
+  width: 300px;
+  position: relative;
+  margin-top: 30px;
+  float: right;
+
+}
+
+#logo-footerp{
+  font-family: 'Rubik', sans-serif;
+  color: #ffff;
+  text-align: justify;
+  position: relative;
+  float: right;
+  margin-top: 0px;
+  height: 100px;
+  width: 314px;
+}
+
+div.col-sm.footer-text{
+  font-size: 12px;
+  font-family: 'Rubik', sans-serif;
+  color: #ffff;
+  text-align: justify;
+  position: relative;
+  float: right;
+  margin-top: 100px;
+  height: 100px;
+  width: 314px;
+}
+
+div.col-sm.social {
+  margin-top: 100px;
+  color: #ffff;
+}
+
+div.center-izq{
+  position: absolute;
+  float: left;
+  overflow: hidden;
+  background-color: #FC7463;
+  margin-top: auto;
+  width: 800px;
+  height: 800px;
+}
+div.center-der{
+  position: absolute;
+  float: right;
+  overflow: hidden;
+  background-color: #393939;
+  margin-top: auto;
+  width: 100%;
+  height: 800px;
+  margin-left: 740px;
+}
+figure.destinationsindex{
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 2%;
+  min-width: 130px;
+  max-width: 240px;
+  width: 100%;
+  background-color: #ffffff;
+  text-align: left;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  margin-top: 80px;
+
 }
